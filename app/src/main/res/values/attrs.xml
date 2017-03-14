@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--文本颜色和全局背景颜色-->
+    <attr name="textColor" format="color|reference" />
+    <attr name="mainBackground" format="color|reference" />
+</resources>

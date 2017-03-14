@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="git.starstudio.night.MainActivity"
+    android:background="?attr/mainBackground">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动自定义主题切换夜间模式"
+        android:id="@+id/button_custom_theme"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_daynight_theme"
+        android:text="启动DayNight模式来切换夜间模式"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_reflect_id"
+        android:text="启动映射id来切换夜间模式"/>
+
+
+</LinearLayout>
